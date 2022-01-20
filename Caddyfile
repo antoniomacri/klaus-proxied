@@ -1,0 +1,7 @@
+:8080
+
+reverse_proxy localhost:8081
+
+basicauth {
+	rosanna JDJhJDE0JDRkN0pHR1hqOWlhdWJTeWlJMTlmRWVaSy5mR1k0c0lVREdvUERNZDZINng4WktTYVF6WmYu
+}
