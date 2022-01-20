@@ -2,6 +2,7 @@ FROM jonashaag/klaus:latest
 RUN apk add caddy
 COPY Caddyfile Caddyfile
 COPY run.sh run.sh
+RUN chmod 0755 run.sh
 EXPOSE 8080
 CMD ["/bin/sh", "-c", "./run.sh"]
 
